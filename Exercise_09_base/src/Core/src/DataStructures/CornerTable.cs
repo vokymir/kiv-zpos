@@ -142,5 +142,10 @@ namespace Core.DataStructures
 
             return result.ToArray();
         }
+
+        public int nextVertexOnBorder(int vertexIndex)
+        {
+            return VV(vertexIndex)[0];
+        }
     }
 }
